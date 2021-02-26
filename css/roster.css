@@ -1,0 +1,18 @@
+.playerimg {
+	max-height:100px;
+	max-width:100px;
+}
+
+
+#roster {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td {
+	border:1px solid black;
+	border-collapse:collapse;
+	text-align: center;
+	padding:none;
+}

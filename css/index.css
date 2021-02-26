@@ -1,8 +1,11 @@
 #title {
-
     background-color: lightblue;
-    
 }
+
+#title>h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 
 #nav {
     background-color: lightgray;
