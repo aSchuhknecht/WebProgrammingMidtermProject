@@ -1,3 +1,10 @@
+body {
+    background-image: url("../images/stadiumBackground.jpeg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-size: 100% 100%; 
+
+}
+
 #title {
     background-color: lightblue;
 }
@@ -7,19 +14,48 @@
 }
 
 
-#nav {
-    background-color: lightgray;
-}
-
 .btn1 {
     background-color: white;
 }
 
 .img1 {
-    width: 80%
-    
+    width: 80%;
 }
 
 .img2 {
-    width: 60%
+    width: 60%;
+    margin-top: 5%;
 }
+
+.img3 {
+    width: 50%; 
+    margin-top: 5%;
+}
+
+.img4 {
+    width: 85%;
+    margin-top: 5%;
+}
+
+
+
+/* selects just the middle sqaures */
+.col-md-3.center {
+    background-color: lightgray;
+    border-style:double;
+    border-width: 1pt;
+
+    text-align: center;
+    
+    font-weight: bold;
+    font-family:'Times New Roman';
+
+
+}
+
+#footer {
+    background-color: lightblue;
+    font-weight: bold;
+    font-style: italic;
+}
+
