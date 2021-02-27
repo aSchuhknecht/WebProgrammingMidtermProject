@@ -1,6 +1,6 @@
 #title {
     background-color: lightblue;
-    margin-bottom:2em;
+    margin-bottom:3em;
 }
 
 #pageTitle {
@@ -25,7 +25,8 @@
 }
 
 #return {
-	margin-top:2em;
+	margin-top:1em;
+	margin-bottom:1em;
 }
 
 .playerimg:hover{
@@ -40,8 +41,26 @@
 	width:1px;
 }
 
+
+.additional>div {
+	display:none;
+}
+
+.additional:hover>div {
+	display:block;
+	font-size:65%;
+	font-style:italic;
+}
+
+.career {
+	font-size:80%;
+}
+
+
 body {
-	background-color:floralwhite;
+	background-image: url("../images/stadiumBackground.jpeg");
+	background-color: #cccccc; /* Used if the image is unavailable */
+    background-size: 100% 100%; 
 }
 
 td {
@@ -72,4 +91,6 @@ th {
 
 table {
 	border:6px solid darkolivegreen;
+	background-color:floralwhite;
+	margin-bottom:3em;
 }
