@@ -1,13 +1,47 @@
-.playerimg {
-	max-height:100px;
-	max-width:100px;
+#title {
+    background-color: lightblue;
+    margin-bottom:2em;
 }
 
+#pageTitle {
+    font-family: 'Permanent Marker', cursive;
+}
 
+.playerimg {
+	transition-property:max-height,max-width;
+	transition-duration:.5s;
+	transition-timing-function:ease-out;
+	max-height:150px;
+	max-width:150px;
+}
+
+.playerNum {
+	font-size:300%;
+}
 #roster {
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+#return {
+	margin-top:2em;
+}
+
+.playerimg:hover{
+	transition-property:max-height,max-width;
+	transition-duration:.5s;
+	transition-timing-function:ease-out;
+	max-height:300px;
+	max-width:300px;
+}
+
+.small {
+	width:1px;
+}
+
+body {
+	background-color:floralwhite;
 }
 
 td {
@@ -15,4 +49,27 @@ td {
 	border-collapse:collapse;
 	text-align: center;
 	padding:none;
+}
+
+tr>:nth-child(even) {
+	background-color: lightgrey;
+}
+
+
+tr>:first-child>div {
+	border-bottom:1px solid black; 
+}
+
+thead {
+	display:table-header-group;
+	border:1px solid black;
+}
+
+th {
+	border:1px solid black;
+	text-align: center;
+}
+
+table {
+	border:6px solid darkolivegreen;
 }
