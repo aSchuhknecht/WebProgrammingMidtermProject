@@ -9,21 +9,34 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/about.css">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" language="javascript" src="javascript/about.js"></script>
+
 </head>
 
 <body>
 
     <div class="container-fluid">
         <div class="row" id="title">
-            <h1 id="pageTitle">About The Web Page</h1>
-            <p>Develepers: Adam Schuhknecht and Sam Ryan</p>
+
+            <div class="col-md-12" id="title2">
+                <h1 id="pageTitle">About The Web Page</h1>
+                <p>Developers: Adam Schuhknecht and Sam Ryan</p>
+
+                <a href="index.html">
+                    <button type="button" class="btn1">Home
+                    </button>
+                </a>
+            </div>
+
         </div>
 
 
         <div class="row" id="row1">
 
             <div class="col-md-4">
-
+                <img src="images/bball.jpg" alt="bball">
             </div>
 
             <div class="col-md-4" id="mainDiv">
@@ -39,12 +52,14 @@
                     <li> The Roster Page (roster.html) </li>
                     <li> </li>
                 </ol>
-                Can probably add more description here
+                The website was built using html and css, along with the bootstrap framework.
+                Javascript and JQuery were also used for additional functionality of the website, such as filtering
+                the games on the upcoming games page.
                 </p>
             </div>
 
             <div class="col-md-4">
-
+                <img src="images/bball.jpg" alt="bball">
             </div>
         </div>
 
@@ -52,27 +67,68 @@
 
         <div class="row" id="row2">
 
-            <h2> About the developers</h2>
+            <div class="col-md-4"> <button type="button" class="btn2">Show
+                </button></div>
+
+            <div class="col-md-4">
+                <h2> About the developers</h2>
+            </div>
+
+            <div class="col-md-4"> <button type="button" class="btn3">Show
+                </button></div>
 
         </div>
 
         <div class="row" id="row3">
 
-            <div class="col-md-6">
-                <h3> Adam Schuhknecht</h3>
+            <div class="col-md-5" id="adamBio">
+                <h4> Adam Schuhknecht</h4>
 
-                <p> Short Bio I guess? Will add js to make text boxes appear here</p>
+                <p> Major: Computer Engineering <br> Age: 22 <br> Grade: Senior <br> Interests:
+
+                <ul>
+                    <li> running</li>
+                    <li> biking</li>
+                    <li> playing chess and poker</li>
+                    <li> computer programming</li>
+                </ul>
+
+                </p>
             </div>
 
-            <div class="col-md-6">
-                <h3> Sam Ryan</h3>
-                <p> Short Bio</p>
+            <div class="col-md-2">
+
             </div>
 
+            <div class="col-md-5" id="samBio">
+                <h4> Sam Ryan</h4>
+                <p> Major: x <br> Age: x <br> Grade: x <br> Interests:
+
+                <ul>
+                    <li> x</li>
+                    <li> x</li>
+                    <li> x</li>
+                    <li> x</li>
+                </ul>
+
+                </p>
+            </div>
         </div>
 
     </div>
 
+    </div>
+
 </body>
+
+<footer>
+    <div class="row">
+        <div class="col-md-1">Navigate: </div>
+        <div class="col-md-2"><a href="index.html"><button type="button">Home</button></a></div>
+        <div class="col-md-2"><a href="catalog.html"><button type="button">Schedule</button></a></div>
+        <div class="col-md-2"><a href="roster.html"><button type="button">Roster</button></a></div>
+        <div class="col-md-2"><a href=""><button type="button">5th</button></a></div>
+    </div>
+</footer>
 
 </html>
