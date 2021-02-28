@@ -1,0 +1,41 @@
+#title {
+    background-color: lightblue;
+    border-bottom:1em;
+    max-width:100%;
+}
+
+#stadiumHead {
+	background-color: lightblue;
+    border-bottom:1em;
+    max-width:100%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Kalamazoo{
+	width:100%;
+}
+
+#stadium {
+	width:100%;
+}
+
+.row {
+	align-content:center;
+	max-width:100%;
+	margin-bottom:1em;
+}
+
+h5 {
+	font-style:italic;
+}
+
+body {
+	background-color:lightblue;
+}
+
+footer {
+	border:2px solid black;
+}
