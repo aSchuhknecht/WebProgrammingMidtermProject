@@ -14,6 +14,14 @@ body {
     text-align: center;
 }
 
+#mainDiv:hover {
+    transition-property:background-color;
+	transition-duration:.5s;
+	transition-timing-function:ease-out;
+    background-color: lightgray;
+}
+
+
 #row1 {
     border-top: solid;
     border-width: 2pt;
@@ -23,9 +31,75 @@ body {
     text-align: center;
     border-top: solid;
     border-width: 2pt;
+    background-color: lightblue;
 }
 
 #row3 {
     text-align: center;
 
 }
+
+.col-md-5 {
+    background-color: lightgray;
+    border: solid;
+    border-radius:5%;
+    display: none;
+   
+}
+
+
+
+.col-md-5 p {
+    text-align: left;
+}
+
+.col-md-5 h4 {
+    text-align: left ;
+}
+
+ul {
+    text-align: left ;
+}
+
+#row2 h2 {
+    background-color: lightblue;
+    
+    
+}
+
+img {
+    position: relative;
+    width: 80%;
+    left: 10%
+    
+}
+.col-md-2 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn1 {
+    position: relative;
+    left: 45%;
+    bottom: 50%
+}
+
+.btn2 {
+    position: relative;
+    top: 10%
+}
+
+.btn3 {
+    position: relative;
+    top: 10%
+}
+
+footer {
+	background-color:lightblue;
+	padding:1em;
+    margin-top: 10em;
+}
+

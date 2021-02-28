@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/stadiumBackground.jpeg");
+	background-color: #cccccc; /* Used if the image is unavailable */
+    background-size: 100% 100%; 
+}
+
+.teamlogo {
+    position: relative;
+   width: 30%;
+}
+
+td {
+    border: solid;
+    border-width: 2pt;
+    border-color:gray;
+    max-width: 150px;
+    
+
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+tr {
+    background-color: ivory;
+    
+}
+
+#schedule {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#title {
+    background-color: lightblue;
+    
+}
+
+footer {
+	background-color:lightblue;
+	padding:1em;
+}
+
+tbody tr:hover {
+    transition-property:background-color;
+	transition-duration:.5s;
+	transition-timing-function:ease-out;
+    background-color: yellow;
+
+}
+
+#filter {
+    background-color: lightslategray;
+    margin-bottom:3em;
+    padding: 1em
+}
+
+
