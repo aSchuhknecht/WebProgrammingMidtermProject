@@ -1,8 +1,12 @@
 $(function() {
+	var clicked = false;
     $("#tickets").click(function() {
         $(this).css('background-color', 'red');
         $(this).text('SOLD OUT');
-        $(this).after(" Check back later")
+        if (!clicked){
+        	clicked = true;
+        	$(this).after(" Check back later")
+    	}
     });
 });
 
