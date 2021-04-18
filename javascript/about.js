@@ -1,5 +1,7 @@
 var flag1 = 0;
 var flag2 = 0;
+var flag3 = 0;
+var flag4 = 0;
 
 $(function() {
     $(".btn2").click(function() {
@@ -30,6 +32,46 @@ $(function() {
         $(".btn3").html("Show info");
         flag2 = 0;
     }
+    });
+});
+
+$(function() {
+    $("#rb").click(function(){
+
+        if (flag3 == 0) {
+            $("#rb").animate({
+                opacity: '0.5',
+                width: '30%'
+            });
+            flag3 = 1;
+        }
+        else {
+            $("#rb").animate({
+                opacity: '1',
+                width: '80%'
+                });
+            flag3 = 0;
+        }   
+    });
+});
+
+$(function() {
+    $("#lb").click(function(){
+
+        if (flag4 == 0) {
+            $("#lb").animate({
+                opacity: '0.5',
+                width: '30%'
+            });
+            flag4 = 1;
+        }
+        else {
+            $("#lb").animate({
+                opacity: '1',
+                width: '80%'
+                });
+            flag4 = 0;
+        }   
     });
 });
 

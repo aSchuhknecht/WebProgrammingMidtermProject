@@ -101,3 +101,16 @@ footer {
 	padding:1em;
 	border:2px solid black;
 }
+
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+	padding:1em;
+}
+
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+}

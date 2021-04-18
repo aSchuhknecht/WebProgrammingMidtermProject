@@ -104,3 +104,9 @@ footer {
     margin-top: 10em;
 }
 
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+}
+

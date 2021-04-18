@@ -4,6 +4,12 @@
     max-width:100%;
 }
 
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+}
+
 #stadiumHead {
 	background-color: lightblue;
     border-bottom:1em;

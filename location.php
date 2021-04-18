@@ -21,10 +21,10 @@
 <header>
 	<div class="row">
 		<div class="col-md-1">Navigate: </div>
-		<div class="col-md-2"><a href="index.html"><button type="button">Home</button></a></div>
-		<div class="col-md-2"><a href="about.html"><button type="button">About</button></a></div>
-		<div class="col-md-2"><a href="catalog.html"><button type="button">Schedule</button></a></div>
-		<div class="col-md-2"><a href="roster.html"><button type="button">Roster</button></a></div>
+		<div class="col-md-2"><a href="index.php"><button type="button">Home</button></a></div>
+		<div class="col-md-2"><a href="about.php"><button type="button">About</button></a></div>
+		<div class="col-md-2"><a href="catalog.php"><button type="button">Schedule</button></a></div>
+		<div class="col-md-2"><a href="roster.php"><button type="button">Roster</button></a></div>
 	</div>
 </header>
 

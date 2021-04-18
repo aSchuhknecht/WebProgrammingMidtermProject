@@ -57,3 +57,9 @@ tbody tr:hover {
     padding: 1em
 }
 
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+}
+

@@ -1,3 +1,13 @@
+<?php
+
+define('DBHOST', '');
+define('DBNAME', 'nba');
+define('DBUSER', 'testuser');
+define('DBPASS', 'mypassword');
+define('DBCONNSTRING','mysql:dbname=book;charset=utf8mb4');
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -18,10 +28,10 @@
 <header>
 	<div class="row">
 		<div class="col-md-1">Navigate: </div>
-		<div class="col-md-2"><a href="index.html"><button type="button">Home</button></a></div>
-		<div class="col-md-2"><a href="about.html"><button type="button">About</button></a></div>
-		<div class="col-md-2"><a href="catalog.html"><button type="button">Schedule</button></a></div>
-		<div class="col-md-2"><a href="location.html"><button type="button">Location</button></a></div>
+		<div class="col-md-2"><a href="index.php"><button type="button">Home</button></a></div>
+		<div class="col-md-2"><a href="about.php"><button type="button">About</button></a></div>
+		<div class="col-md-2"><a href="catalog.php"><button type="button">Schedule</button></a></div>
+		<div class="col-md-2"><a href="location.php"><button type="button">Location</button></a></div>
 	</div>
 </header>
 

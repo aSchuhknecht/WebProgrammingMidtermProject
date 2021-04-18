@@ -18,10 +18,10 @@
 <header>
     <div class="row">
         <div class="col-md-1">Navigate: </div>
-        <div class="col-md-2"><a href="index.html"><button type="button">Home</button></a></div>
-        <div class="col-md-2"><a href="catalog.html"><button type="button">Schedule</button></a></div>
-        <div class="col-md-2"><a href="roster.html"><button type="button">Roster</button></a></div>
-        <div class="col-md-2"><a href="location.html"><button type="button">Location</button></a></div>
+        <div class="col-md-2"><a href="index.php"><button type="button">Home</button></a></div>
+        <div class="col-md-2"><a href="catalog.php"><button type="button">Schedule</button></a></div>
+        <div class="col-md-2"><a href="roster.php"><button type="button">Roster</button></a></div>
+        <div class="col-md-2"><a href="location.php"><button type="button">Location</button></a></div>
     </div>
 </header>
 
@@ -41,7 +41,7 @@
         <div class="row" id="row1">
 
             <div class="col-md-4">
-                <img src="images/bball.jpg" alt="bball">
+                <img src="images/bball.jpg"  id = "lb" alt="bball">
             </div>
 
             <div class="col-md-4" id="mainDiv">
@@ -51,20 +51,22 @@
                     many of the best NBA players from the past and present. There are five html pages that can be
                     navigated:
                 <ol>
-                    <li> The Home Page (index.html) </li>
-                    <li> The About Page (about.html) </li>
-                    <li> The Upcoming Events Page (catalog.html) </li>
-                    <li> The Roster Page (roster.html) </li>
-                    <li> </li>
+                    <li> The Home Page (index.php) </li>
+                    <li> The About Page (about.php) </li>
+                    <li> The Upcoming Events Page (catalog.php) </li>
+                    <li> The Roster Page (roster.php) </li>
+                    <li> The Location Page (location.php)</li>
                 </ol>
-                The website was built using html and css, along with the bootstrap framework.
+                The website was built using html, css, php, and SQL, along with the bootstrap framework.
                 Javascript and JQuery were also used for additional functionality of the website, such as filtering
-                the games on the upcoming games page.
+                the games on the upcoming games page. 
+
+
                 </p>
             </div>
 
-            <div class="col-md-4">
-                <img src="images/bball.jpg" alt="bball">
+            <div class="col-md-4" id = "rightball">
+                <img src="images/bball.jpg" id = "rb" alt="bball">
             </div>
         </div>
 
@@ -125,7 +127,5 @@
     </div>
 
 </body>
-
-
 
 </html>
