@@ -5,6 +5,10 @@ body {
 
 }
 
+#login {
+    float:right;
+}
+
 #title {
     background-color: lightblue;
 }

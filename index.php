@@ -19,8 +19,13 @@
     <div class="container-fluid">
         <div class="row" id="title">
             <h1 id="pageTitle">NBA Dream Team</h1>
-            <p></p>
-        </div>
+            <p>
+                <a id="login" href="login.php">
+                    <button class="btn1" type="button">Login
+                    </button>
+                </a>
+            </p>
+        </div> 
 
 
         <div class="row" id="nav">
