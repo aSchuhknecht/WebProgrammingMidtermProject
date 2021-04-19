@@ -19,12 +19,12 @@
     <div class="container-fluid">
         <div class="row" id="title">
             <h1 id="pageTitle">NBA Dream Team</h1>
-            <p>
+            <div>
                 <a id="login" href="login.php">
                     <button class="btn1" type="button">Login
                     </button>
                 </a>
-            </p>
+            </div>
         </div> 
 
 

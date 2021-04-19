@@ -32,6 +32,8 @@ define('DBCONNSTRING','mysql:dbname=book;charset=utf8mb4');
 		<div class="col-md-2"><a href="about.php"><button type="button">About</button></a></div>
 		<div class="col-md-2"><a href="catalog.php"><button type="button">Schedule</button></a></div>
 		<div class="col-md-2"><a href="location.php"><button type="button">Location</button></a></div>
+		<div class="col-md-2"><a href="login.php"><button type="button">Login</button></a></div>
+
 	</div>
 </header>
 

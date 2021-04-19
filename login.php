@@ -45,12 +45,23 @@ catch(PDOException $error)
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>login</title>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
 <link href="style.css" rel="stylesheet" type="text/css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/login.css">
 </head>
+<header>
+	<div class="row">
+		<div class="col-md-1">Navigate: </div>
+		<div class="col-md-2"><a href="index.php"><button type="button">Home</button></a></div>
+		<div class="col-md-2"><a href="about.php"><button type="button">About</button></a></div>
+		<div class="col-md-2"><a href="catalog.php"><button type="button">Schedule</button></a></div>
+		<div class="col-md-2"><a href="location.php"><button type="button">Location</button></a></div>
+	</div>
+</header>
 <body>
 
 	<body>  

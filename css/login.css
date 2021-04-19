@@ -1,0 +1,19 @@
+h3 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+body {
+	background-color:#ccccee;
+	background-size: 100% 100%; 
+}
+
+form {
+	border:2px solid grey;
+	padding: 3em;
+}
+
+header {
+	background-color: lightgrey;
+	border:2px solid black;
+	text-align: center;
+}
