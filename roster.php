@@ -79,339 +79,53 @@ define('DBCONNSTRING','mysql:dbname=book;charset=utf8mb4');
 					</th>
 				</thead>
 				<tbody>
-					<tr class="player">
-						<td class="small">
-							<div class="name">LeBron James</div>
-							<img src="images/LebronJames.jpg" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">23</div>
-						</td>
-						<td>
-							<div class="position">Point Guard</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 25.7</div>
-							<div class="stat">APG: 7.9</div>
-							<div class="stat">RPG: 8.2</div>
-						</td>
-						<td>
-							<div class="height">6'9"</div>
-						</td>
-						<td>
-							<div class="career">
-								Miami Heat, Cleveland Cavaliers, LA Lakers<br>
-								4x Finals MVP<br>
-								4x NBA Champion<br>
-								17x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">36</div>
-						</td>
-						<td>
-							<div class="origin">Ohio</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/LeBron_James">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Magic Johnson</div>
-							<img src="images/MagicJohnson.jpg" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">32</div>
-						</td>
-						<td>
-							<div class="position">Point Guard</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 19.5</div>
-							<div class="stat">APG: 11.2</div>
-							<div class="stat">RPG: 7.2</div>
-						</td>
-						<td>
-							<div class="height">6'9"</div>
-						</td>
-						<td>
-							<div class="career">
-								LA Lakers<br>
-								3x Finals MVP<br>
-								5x NBA Champion<br>
-								12x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">36</div>
-						</td>
-						<td>
-							<div class="origin">Michigan</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Magic_Johnson">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Michael Jordan</div>
-							<img src="images/MichealJordan.jfif" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">23</div>
-						</td>
-						<td>
-							<div class="position">Guard</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 30.1</div>
-							<div class="stat">APG: 5.3</div>
-							<div class="stat">RPG: 6.2</div>
-						</td>
-						<td>
-							<div class="height">6'6"</div>
-						</td>
-						<td>
-							<div class="career">
-								Chicago Bulls, WA Wizards<br>
-								6x Finals MVP<br>
-								6x NBA Champion<br>
-								14x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">30</div>
-						</td>
-						<td>
-							<div class="origin">New York</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Michael_Jordan">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Kobe Bryant</div>
-							<img src="images/KobeBryant.jpg" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">24</div>
-						</td>
-						<td>
-							<div class="position">Guard</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 25</div>
-							<div class="stat">APG: 4.7</div>
-							<div class="stat">RPG: 5.2</div>
-						</td>
-						<td>
-							<div class="height">6'6"</div>
-						</td>
-						<td>
-							<div class="career">
-								LA Lakers<br>
-								2x Finals MVP<br>
-								5x NBA Champion<br>
-								18x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">36</div>
-						</td>
-						<td>
-							<div class="origin">Pennsylvania</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Kobe_Bryant">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Kevin Durant</div>
-							<img src="images/KD.jfif" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">7</div>
-						</td>
-						<td>
-							<div class="position">Small Forward</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 29</div>
-							<div class="stat">APG: 5.3</div>
-							<div class="stat">RPG: 7.3</div>
-						</td>
-						<td>
-							<div class="height">6'10"</div>
-						</td>
-						<td>
-							<div class="career">
-								OKC Thunder, Golden State Warriors, Brooklyn Nets<br>
-								2x Finals MVP<br>
-								2x NBA Champion<br>
-								11x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">32</div>
-						</td>
-						<td class="small">
-							<div class="origin">Washington D.C.</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Kevin_Durant">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Karl Malone</div>
-							<img src="images/KarlMalone.jfif" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">11</div>
-						</td>
-						<td>
-							<div class="position">Power Forward</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 25</div>
-							<div class="stat">APG: 3.6</div>
-							<div class="stat">RPG: 10.1</div>
-						</td>
-						<td>
-							<div class="height">6'9"</div>
-						</td>
-						<td>
-							<div class="career">
-								Utah Jazz, LA Lakers<br>
-								2x NBA MPV<br>
-								14x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">41</div>
-						</td>
-						<td class="small">
-							<div class="origin">Louisiana</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Karl_Malone">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">James Harden</div>
-							<img src="images/JamesHarden.jpg" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">13</div>
-						</td>
-						<td>
-							<div class="position">Shooting Guard</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 25.2</div>
-							<div class="stat">APG: 6.5</div>
-							<div class="stat">RPG: 5.4</div>
-						</td>
-						<td>
-							<div class="height">6'5"</div>
-						</td>
-						<td>
-							<div class="career">
-								OKC Thunder, Houston Rockets, Brooklyn Nets<br>
-								3x NBA Scoring Champion<br>
-								NBA MVP<br>
-								9x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">31</div>
-						</td>
-						<td class="small">
-							<div class="origin">California</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/James_Harden">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Shaquille O'Neal</div>
-							<img src="images/Shaq.jpg" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">34</div>
-						</td>
-						<td>
-							<div class="position">Center</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 23.7</div>
-							<div class="stat">APG: 2.5</div>
-							<div class="stat">RPG: 10.9</div>
-						</td>
-						<td>
-							<div class="height">7'1"</div>
-						</td>
-						<td>
-							<div class="career">
-								Orlando Magic, LA Lakers, Miami Heat,<br> Pheonix Suns, Cleveland Cavaliers, Boston
-								Celtics<br>
-								3x Finals MVP<br>
-								4x NBA Champion<br>
-								15x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">39</div>
-						</td>
-						<td class="small">
-							<div class="origin">New Jersey</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Shaquille_O'Neal">More Info</a>
-						</td>
-					</tr>
-					<tr class="player">
-						<td class="small">
-							<div class="name">Kareem Abdul-Jabbar</div>
-							<img src="images/Kareem.png" class="playerimg">
-						</td>
-						<td class="small">
-							<div class="playerNum">33</div>
-						</td>
-						<td>
-							<div class="position">Center</div>
-						</td>
-						<td>
-							<div class="stat">PPG: 24.6</div>
-							<div class="stat">APG: 3.6</div>
-							<div class="stat">RPG: 11.2</div>
-						</td>
-						<td>
-							<div class="height">7'2"</div>
-						</td>
-						<td>
-							<div class="career">
-								Milwaukee Bucks, LA Lakers<br>
-								2x Finals MVP<br>
-								6x NBA Champion<br>
-								19x All Star
-							</div>
-						</td>
-						<td>
-							<div class="age">42</div>
-						</td>
-						<td class="small">
-							<div class="origin">New York</div>
-						</td>
-						<td>
-							<a href="https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar">More Info</a>
-						</td>
-					</tr>
+
+				<?php  
+                           /* programmatically loop though employees and display each
+                              name as <td> element. */
+                              $connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
+                              if ( mysqli_connect_errno() ) {
+                                die( mysqli_connect_error() );
+                              }
+                              $sql = "select * from stats";
+                              if ($result = mysqli_query($connection, $sql)) {
+                                // loop through the data
+                                while ($row = mysqli_fetch_assoc($result))
+                                {
+									$firstName = $row['firstName'];
+									$lastName = $row['lastName'];
+									$img = $row['img'];
+									$num = $row['number'];
+									$pos = $row['position'];
+									$ppg = $row['ppg']; $apg = $row['apg']; $rpg = $row['rpg'];
+									$height = $row['height'];
+									$i1 = $row['i1']; $i2 = $row['i2']; $i3 = $row['i3']; $i4 = $row['i4'];
+									$origin = $row['origin'];
+									$wiki = $row['wiki'];
+									$age = $row['age'];
+
+                                  	echo "<tr class= \"player\">";
+								  	echo  "<td class=\"small\">";
+									echo "<div class=\"name\">" . $firstName . " " . $lastName . "</div>";
+									echo "<img src=\""  . $img . "\" class=\"playerimg\"> </td>";  
+									echo "<td class=\"small\">";
+									echo "<div class=\"playerNum\">" . $num . "</div> </td>";
+									echo "<td> <div class=\"position\">" . $pos . "</div> </td>";
+									echo "<td> <div class=\"stat\">PPG: " . $ppg . "</div>";
+									echo "<div class=\"stat\">APG:" . $apg . "</div>";
+									echo "<div class=\"stat\">RPG:" . $rpg . "</div> </td>";
+									echo "<td> <div class=\"height\">" . $height . "</div> </td>";
+									echo "<td> <div class=\"career\">" . $i1 . "<br>" . $i2 . "<br>" . $i3 . "<br>". $i4 . "</div> </td>";
+									echo "<td> <div class=\"age\">" . $age . "</div> </td>";
+									echo "<td> <div class=\"origin\">" . $origin . "</div> </td>";
+									echo "<td> <a href=\"" . $wiki . "\">More Info</a> </td> </tr>";
+                                }
+                                // release the memory used by the result set
+                                mysqli_free_result($result);
+                              }
+                              
+                    ?>
+					
 				</tbody>
 			</table>
 		</div>

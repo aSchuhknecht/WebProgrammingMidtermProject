@@ -124,7 +124,7 @@ define('DBCONNSTRING','mysql:dbname=book;charset=utf8mb4');
                               }
                               // close the database connection
                               
-                          ?>
+                    ?>
 
                 </tbody>
             </table>

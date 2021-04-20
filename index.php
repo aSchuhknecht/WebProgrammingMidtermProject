@@ -1,3 +1,24 @@
+<?php
+
+session_start();
+
+//this line is used for testing sessions
+//session_unset();
+
+$loggedIn = false;
+
+if (isset($_SESSION["name"])) {
+    //user is logged in, can access website
+    $loggedIn = true;
+}
+
+else {
+    //other pages are locked
+    $loggedIn = false;
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -12,6 +33,9 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" language="javascript" src="javascript/index.js"></script>
 </head>
 
 <body>
@@ -20,8 +44,9 @@
         <div class="row" id="title">
             <h1 id="pageTitle">NBA Dream Team</h1>
             <div>
+
                 <a id="login" href="login.php">
-                    <button class="btn1" type="button">Login
+                    <button class="btn1" type="button">Log in
                     </button>
                 </a>
             </div>
@@ -38,20 +63,43 @@
                 <img src="images/genericlogo1.png" class="img1">
                 <p>About the Web Page </p>
                 <p>
-                    <a href="about.php">
-                        <button class="btn1" type="button">View
-                        </button>
-                    </a>
+                <?php
+                if ($loggedIn) {
+                    echo "<a href=\"about.php\">
+                    <button class=\"btn1\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                else {
+                    echo "<a href=\" \">
+                    <button class=\"btnFake\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                ?>
+
                 </p>
 
             </div>
             <div class="col-md-3 center" id="schedule">
                 <img src="images/nba-logo.png" class="img2">
                 <p>Upcoming Games </p>
-                <p> <a href="catalog.php">
-                        <button class="btn1" type="button">View
-                        </button>
-                    </a></p>
+                <p> 
+                <?php
+                if ($loggedIn) {
+                    echo "<a href=\"catalog.php\">
+                    <button class=\"btn1\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                else {
+                    echo "<a href=\" \">
+                    <button class=\"btnFake\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                ?>
+                </p>
             </div>
 
 
@@ -73,16 +121,43 @@
             <div class="col-md-3 center" id="roster">
                 <img src="images/jordanMainpage.jpg" class="img3">
                 <p>Team Roster </p>
-                <p><a href="roster.php"><button class="btn1" type="button">View</button></a></p>
+                <p>
+                <?php
+                if ($loggedIn) {
+                    echo "<a href=\"roster.php\">
+                    <button class=\"btn1\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                else {
+                    echo "<a href=\" \">
+                    <button class=\"btnFake\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                ?>
+                </p>
             </div>
 
             <div class="col-md-3 center" id="">
                 <img src="images/homeStadium.jfif" class="img4">
                 <p>Location</p>
-                <p> <a href="location.php">
-                        <button class="btn1" type="button">View
-                        </button>
-                    </a></p>
+                <p> 
+                <?php
+                if ($loggedIn) {
+                    echo "<a href=\"location.php\">
+                    <button class=\"btn1\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                else {
+                    echo "<a href=\" \">
+                    <button class=\"btnFake\" type=\"button\">View
+                    </button>
+                    </a>";
+                }
+                ?>
+                </p>
             </div>
 
 

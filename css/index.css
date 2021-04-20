@@ -5,13 +5,16 @@ body {
 
 }
 
-#login {
-    float:right;
-}
 
 #title {
     background-color: lightblue;
 }
+
+#login {
+    float: right;
+    margin-bottom: 1%;
+}
+
 
 #title>h1 {
     font-family: 'Permanent Marker', cursive;
@@ -62,4 +65,5 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
 

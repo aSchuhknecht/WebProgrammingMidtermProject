@@ -48,7 +48,7 @@
                 <h2> Description of the Project</h2>
 
                 <p> This web page serves as an informtional website about a fictional "dream team" which features
-                    many of the best NBA players from the past and present. There are five html pages that can be
+                    many of the best NBA players from the past and present. There are five php pages that can be
                     navigated:
                 <ol>
                     <li> The Home Page (index.php) </li>
@@ -60,6 +60,9 @@
                 The website was built using html, css, php, and SQL, along with the bootstrap framework.
                 Javascript and JQuery were also used for additional functionality of the website, such as filtering
                 the games on the upcoming games page. 
+                <br><br>
+                Additionally, a login.php and signup.php were added so that the contents of the website cannot be accessed until
+                the user has registered an account and logged in. Sessions are used to determine if the user is logged in or not.
 
 
                 </p>

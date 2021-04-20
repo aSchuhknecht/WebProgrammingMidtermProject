@@ -9,8 +9,17 @@ define('DBCONNSTRING','mysql:dbname=nba;charset=utf8mb4');
 ?>
 
 <?php
+session_start();
+//session_unset();
+
+
+if (!isset($_SESSION['errors'])) {
+	$_SESSION["errors"] = 0; 
+}
+
 try {
 	$msg = "";
+	$errorCount = 0;
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     	$name = $_POST["name"];
     	$password = $_POST["password"];
@@ -25,11 +34,13 @@ try {
         	$count = $result->rowCount();
         	$row = $result->fetch();
        		if ($count > 0 AND password_verify($password, $row['password'])) {
-            	$_SESSION["name"] = $_POST["name"];
+            	$_SESSION["name"] = $_POST["name"]; 
             	header("location: index.php");
         	}
-        	else{
-        		$msg = "Username and password do not match";
+        	else if ($name != '' || $password != '') {
+        		$msg = "Incorect username and password";
+				$_SESSION["errors"] = $_SESSION["errors"] + 1; 
+				
         	}
     	}
 	}
@@ -73,7 +84,19 @@ catch(PDOException $error)
                      echo '<label class="text-danger">'.$msg.'</label>';  
                 }  
                 ?>  
-                <h3 align="">Login</h3><br />  
+                <h3 align="">Login</h3><br /> 
+				
+				<?php 
+				
+				if ($_SESSION["errors"] > 5) {
+
+					$_SESSION["errors"] = 0; //reset errors
+					sleep(5);  //lock for 5 seconds
+
+				}
+
+				?> 
+
                 <form method="post">  
                      <label>Username</label>  
                      <input type="text" name="name" class="form-control" />  
@@ -86,8 +109,15 @@ catch(PDOException $error)
                         <button class="btn btn-info" type="button" >Create an Account</button>
                         </button>
                     </a>
-                </form>  
+                </form> 
+				<?php 
+				echo "Login attempts remaining: " . (6 - $_SESSION["errors"]);
+				?>
+
+
            </div>  
+
+
            <br />  
       </body> 
 
